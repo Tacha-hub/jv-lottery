@@ -8,7 +8,7 @@ public class Lottery {
 
     public Ball getRandomBall() {
         Ball.Color color = colorSupplier.getRandomColor();
-        int number = random.nextInt(100);
+        int number = random.nextInt(101);
         return new Ball(color, number);
 
     }
