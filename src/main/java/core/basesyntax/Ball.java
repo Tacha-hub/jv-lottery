@@ -4,14 +4,17 @@ public class Ball {
     private Color color;
     private int number;
 
-    public Ball(Color color, int number) {
+    public void setRandomColor(Color color) {
         this.color = color;
+    }
+
+    public void setRandomNumber(int number) {
         this.number = number;
     }
 
     @Override
     public String toString() {
-        return "color is " + color + "number is " + number;
+        return "Color is" +  " " + color.name() +  " " + "number is " + number;
     }
 
     public enum Color {
