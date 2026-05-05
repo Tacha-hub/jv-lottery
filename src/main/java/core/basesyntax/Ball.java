@@ -14,7 +14,7 @@ public class Ball {
 
     @Override
     public String toString() {
-        return "Color is" +  " " + color.name() +  " " + "number is " + number;
+        return "Color is" + " " + color.name() + " " + "number is " + number;
     }
 
     public enum Color {
