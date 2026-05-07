@@ -16,14 +16,9 @@ public class Ball {
     public String toString() {
         return "Color is" + " " + color.name() + " " + "number is " + number;
     }
-
-    public enum Color {
-        YELLOW,
-        GREEN,
-        RED,
-        PINK,
-        WHITE
-    }
 }
+
+
+
 
 

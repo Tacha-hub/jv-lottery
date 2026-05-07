@@ -5,8 +5,8 @@ import java.util.Random;
 public class ColorSupplier {
     private final Random random = new Random();
 
-    public Ball.Color getRandomColor() {
-        return Ball.Color.values()[random.nextInt(Ball.Color.values().length)];
+    public Color getRandomColor() {
+        return Color.values()[random.nextInt(Color.values().length)];
 
     }
 }
